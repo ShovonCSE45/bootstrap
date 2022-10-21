@@ -6,9 +6,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Bootstrap</title>
     <link rel="stylesheet" href="css\bootstrap-5.2.2-dist\bootstrap-5.2.2-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+
+    <style>
+        h1{
+            margin-top: 100px;
+        }
+        h2{
+            margin-top: 100px;
+        }
+    </style>
 </head>
 <body>
+    <ul class="nav nav-pills fixed-top">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
     <h2>Hello Bangladesh</h2>
+    <button class="btn btn-primary">New button</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <h1>Background Color</h1>
+    <div class="bg-success text-white">
+        <p>Hello we are trying to get success in our future journey . May allah help us to go ahear in our road map.</p>
+    </div>
+    <div class="bg-warning text-white">
+        <p>Yes, It was last warning in our processing tutorial , Its not possible to get dispared.</p>
+    </div>
+    <h1>Photo galary</h1>
+    <img class="img-fluid w-25 rounded-circle img-thumbnail " src="images/IMG_0005.JPG" alt="">
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/IMG_0050.JPG" alt="">
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/IMG_0072.JPG" alt="">
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/1639936173227.jpg" alt="">
+    <br>
+
+    <h1>Adition Card</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="images/IMG_0050.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Birthday</h5>
+          <p class="card-text">It was the special time for us because it was birthday of our friend , and we are proud for wishing him.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <h1>Multiple card Creation</h1>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/1639936173227.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">First Card</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/IMG_0005.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Second Card</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/IMG_0072.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="Fourth Card">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <h1>Grid Work (Responsive Grid)</h1>
+        <div class="row">
+          <div class="col-3 col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
+            <p>Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+    
+            If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+
+          </div>
+          <div class="col-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <p>Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+
+          </div>
+          <div class="col-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <p>Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+          </div>
+          <div class="col-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <p>Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+          </div>
+         
+ 
+
+        </div>
+      </div>
+
+      <h1>Carosol Practise</h1>
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/20220122233950_IMG_2099.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/20220122233752_IMG_2090.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/20220122234405_IMG_2122.JPG" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+      
+      
     
 </body>
 </html>
